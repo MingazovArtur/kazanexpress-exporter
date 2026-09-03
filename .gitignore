@@ -1,15 +1,39 @@
-# Секретные ключи
+# Секретные ключи и пароли
 .env
+*.key
+*.secret
+
+# Файлы с пользовательскими данными
+links.txt
+Выгрузка_товаров.xlsx
+*.xlsx
+
+# Папка с фото (слишком большая для GitHub)
+photos/
 
 # Временные файлы Python
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
 
-# Файлы Excel и текстовые списки (чтобы не светить ваши данные)
-*.xlsx
-links.txt
-Выгрузка_товаров.xlsx
+# Виртуальное окружение
+venv/
+env/
+ENV/
 
-# Настройки VS Code
+# IDE
 .vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Кэш
+.cache/
+*.log
